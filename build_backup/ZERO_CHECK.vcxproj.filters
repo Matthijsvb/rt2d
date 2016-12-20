@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\d7e3584074777d1b80d82a34a1f67473\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{39CDB197-2D30-358F-9DE0-8DDE5BB222CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

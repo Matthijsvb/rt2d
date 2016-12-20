@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{0C49F261-F25C-364E-88FB-552E47831E44}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glfw-3.0.3\include\GLFW;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glm-0.9.7.0;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glew-1.9.0\include;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rs232;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glfw-3.0.3\include\GLFW;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glm-0.9.7.0;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glew-1.9.0\include;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rs232;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glfw-3.0.3\include\GLFW;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glm-0.9.7.0;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glew-1.9.0\include;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rs232;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glfw-3.0.3\include\GLFW;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glm-0.9.7.0;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\glew-1.9.0\include;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rs232;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d -BC:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build --check-stamp-file C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/CMakeLists.txt;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d -BC:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build --check-stamp-file C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/CMakeLists.txt;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d -BC:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build --check-stamp-file C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/CMakeLists.txt;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d -BC:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build --check-stamp-file C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/CMakeLists.txt;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build/ZERO_CHECK.vcxproj">
+      <Project>51B79835-C478-3CDC-A409-4009283D974A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build/external/GLEW_190.vcxproj">
+      <Project>A9F22F67-E626-30E3-B3E7-8C64CECF2977</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build/external/glfw-3.0.3/src/GLFW_303.vcxproj">
+      <Project>CD12AAC7-D3C6-3477-84C9-82CDE65726E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build/demo.vcxproj">
+      <Project>2E3D1BAE-F55D-3FA2-894C-CD055FC30BB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build/external/rs232.vcxproj">
+      <Project>36C51596-0463-3CD7-A3A0-740705AF7199</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build/rt2d.vcxproj">
+      <Project>8C976B47-F863-321F-91F1-1E35EA769FAC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/build/start.vcxproj">
+      <Project>F26B8610-12C5-376D-88E0-48B8FAF3753F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

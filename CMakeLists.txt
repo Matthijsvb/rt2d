@@ -186,8 +186,10 @@ add_executable(start
 	start/main.cpp
 	start/myentity.cpp
 	start/myentity.h
-	start/myscene.cpp
-	start/myscene.h
+	start/scene_test.cpp
+	start/scene_test.h
+	start/player.cpp
+	start/player.h
 )
 target_link_libraries(start
 	${ALL_LIBS}

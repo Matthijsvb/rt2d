@@ -7,9 +7,9 @@
 #include <fstream>
 #include <sstream>
 
-#include "myscene.h"
+#include "scene_manager.h"
 
-MyScene::MyScene() : Scene()
+Scene_Manager::Scene_Manager() : Scene()
 {
 	// start the timer.
 	t.start();
@@ -25,7 +25,7 @@ MyScene::MyScene() : Scene()
 }
 
 
-MyScene::~MyScene()
+Scene_Manager::~Scene_Manager()
 {
 	// deconstruct and delete the Tree
 	this->removeChild(myentity);
@@ -34,7 +34,7 @@ MyScene::~MyScene()
 	delete myentity;
 }
 
-void MyScene::update(float deltaTime)
+void Scene_Manager::update(float deltaTime)
 {
 	// ###############################################################
 	// Escape key stops the Scene

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\noise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\resourcemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\noise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\pointx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\resourcemanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\stringutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\rt2d\vectorx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D55F1BEE-D164-354A-86C2-52BF30364604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A62AE758-7B1E-36DD-A55B-07AFEBF335B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿  Building Custom Rule C:/Users/Mathijs/Desktop/AlfaCollege/Schooljaar2/Periode_2/Project2/Project_documenten/Engine_Rik/rt2d/external/glfw-3.0.3/src/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\external\glfw-3.0.3\src\CMakeFiles\generate.stamp is up-to-date.
+  clipboard.c
+  context.c
+  gamma.c
+  init.c
+  input.c
+  joystick.c
+  monitor.c
+  time.c
+  window.c
+  win32_clipboard.c
+  win32_gamma.c
+  win32_init.c
+  win32_joystick.c
+  win32_monitor.c
+  win32_time.c
+  win32_window.c
+  wgl_context.c
+  GLFW_303.vcxproj -> C:\Users\Mathijs\Desktop\AlfaCollege\Schooljaar2\Periode_2\Project2\Project_documenten\Engine_Rik\rt2d\build\external\glfw-3.0.3\src\Debug\glfw3.lib
